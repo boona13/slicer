@@ -1,0 +1,78 @@
+- !<AssetImportMetadata/2ffd97c1-226b-46bb-a668-461f04452b3b>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> f17f25b1-d8dc-4302-b0cb-d05ad71bac11
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> f17f25b1-d8dc-4302-b0cb-d05ad71bac11
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> 69d66efd-4fc8-4fbf-8f3b-182de0aea3d8
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/69d66efd-4fc8-4fbf-8f3b-182de0aea3d8>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 91d4e2ed-e46b-4b6a-9735-bda042ad6dd9
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    flashOverlay: false
+    hintText: false
+    mainCamera: false
+    objectScale: false
+    perfectText: false
+    resultsText: false
+    roundText: false
+    scoreText: false
+    shakeEffect: false
+    shatterForce: false
+    shatterGravity: false
+    shatterPieces: false
+    shatterScale: false
+    sliceAudio: false
+    spawnDistance: false
+    spinSpeed: false
+    streakText: false
+    templateContainer: false
+    trimController: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - trimController: !<reference.ScriptComponent> 00000000-0000-0000-0000-000000000000
+      scoreText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      perfectText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      streakText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      hintText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      roundText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      resultsText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      sliceAudio: !<reference.AudioComponent> 00000000-0000-0000-0000-000000000000
+      templateContainer: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      mainCamera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      flashOverlay: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      shakeEffect: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      objectScale: 0.800000
+      spawnDistance: !<float> 80.000000
+      spinSpeed: !<float> 30.000000
+      shatterForce: !<float> 40.000000
+      shatterGravity: !<float> 120.000000
+      shatterScale: !<float> 1.000000
+      shatterPieces: !<float> 40.000000
+  ScriptTypes:
+    -
+      {}

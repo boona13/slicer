@@ -1,0 +1,54 @@
+- !<AssetImportMetadata/160662ce-da1d-4c7c-8db3-c97872392eec>
+  ImportedAssetIds:
+    JavaScriptAsset: !<reference> cdd203d3-4515-494d-8174-1a9a972457f1
+  ImporterName: JavaScriptAssetImporter
+  PrimaryAsset: !<reference> cdd203d3-4515-494d-8174-1a9a972457f1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    JavaScriptAsset: !<own> c4354e9a-a385-4dcb-99f1-da5b176854a4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<ScriptAssetData/c4354e9a-a385-4dcb-99f1-da5b176854a4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 6d67e226-bc05-4802-bbaf-58fc7545835c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camera: false
+    colliders: false
+    targetMeshes: false
+    trimOverlay: false
+    useColliders: false
+    uvTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camera: !<reference.Camera> 00000000-0000-0000-0000-000000000000
+      uvTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      trimOverlay: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      targetMeshes: !<reference.RenderMeshVisual[]>
+        []
+      colliders: !<reference.ColliderComponent[]>
+        []
+      useColliders: true
+  ScriptTypes:
+    -
+      {}

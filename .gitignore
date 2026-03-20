@@ -1,0 +1,17 @@
+# Lens Studio source of truth
+/Cache/
+/Workspaces/
+/PluginsUserPreferences/
+/Support/
+/.agents/
+
+# Lens Studio runtime/editor lock files
+*.lock
+*.esproj.*.lock
+
+# Editor-specific folders
+/.cursor/
+/.vscode/
+
+# OS files
+.DS_Store
